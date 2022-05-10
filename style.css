@@ -1,0 +1,38 @@
+body{
+  color: white;
+  background-color: #0f0822;
+}
+.nav-cont{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a{
+  color: white;
+  text-decoration: none;
+}
+
+.container{
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 90%;
+  background-color:#1a0d31;
+}
+.container>h6,h2{
+  margin-left: 100px;
+  font-size: 30px;
+  margin-bottom: 10;
+}
+
+.container>input{
+  border: 2px solid black;
+  width: 30%;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.sub{
+  width: 50px;
+  padding: 10px;
+}
